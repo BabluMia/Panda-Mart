@@ -8,5 +8,12 @@ body{
     overflow-x: hidden;
 }
 /* custom class */
-
+.card-hover{ 
+    /* box-shadow:0px 2px 18px 3px rgba(22,26,37,0.63); */
+    cursor: pointer;
+}
+.card-hover:hover{
+    transform: translateY(-12px);
+    transition: .3s;
+}
 
